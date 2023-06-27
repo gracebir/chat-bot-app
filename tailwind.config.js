@@ -6,10 +6,16 @@ export default {
   ],
   theme: {
     extend: {
-      'head-color':'#FF007A',
-      'chat-color': '#F1F1F1',
-      'text-color':'#1E1E1E',
-      'gray-color':'#E0E0E0'
+      colors: {
+        'head-color': '#FF007A',
+        'chat-color': '#F1F1F1',
+        'text-color': '#1E1E1E',
+        'gray-color': '#E0E0E0'
+      },
+      fontFamily:{
+        'poppins': ['Poppins', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif']
+      }
     },
   },
   plugins: [],
